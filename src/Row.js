@@ -18,8 +18,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
     fetchData();
   }, [fetchUrl]); //we have to put fetchurl here because it is a variable which is being passed outside of the block useffect
 
-  console.log(movies);
-
   return (
     <div className="row">
       <h2>{title}</h2>
