@@ -17,7 +17,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
       return request;
     }
     fetchData();
-  }, [fetchUrl]); //we have to put fetchurl here because it is a variable which is being passed outside of the block useffect
+  }, [fetchUrl]);
   const opts = {
     height: "390",
     width: "100%",
